@@ -152,7 +152,7 @@ body {
     .image {
         width: 1023px;
         height: 670px;
-        background-image: url(/src/img/img_face.png);
+        background-image: url(../img/img_face.png);
         position: absolute;
         pointer-events: none;
         left: 267px;
@@ -237,7 +237,7 @@ body {
         background-color: #f1f1f1;
         // opacity: 0.38;
         box-shadow: 0px 9px 38px rgba(0, 0, 0, 0.08);
-        background-image: url(/src/img/Skills/wave_bg_stroke.png);
+        background-image: url(../img/Skills/wave_bg_stroke.png);
         .wave {
             width: 949px;
             position: absolute;
