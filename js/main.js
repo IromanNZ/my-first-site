@@ -26,8 +26,22 @@ $(function(){
 });
 
 $(document).ready(function() {
-  $('.popup-link').magnificPopup({
-    removalDelay: 300,
-    mainClass: 'mfp-fade'
-  });
+    $('.popup-link').magnificPopup({
+        removalDelay: 300,
+        mainClass: 'mfp-fade'
+    });
+    var mySwiper = new Swiper ('.swiper-container', {
+        direction: 'horizontal',
+        loop: true,
+        observer: true, 
+        observeParents: true,
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        }
+    });
+    
 });
