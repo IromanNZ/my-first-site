@@ -25,12 +25,6 @@ $(function(){
       });
 });
 
-$(function () {
-    $(".portfolio .button").on("click", function(){
-      $(".popup").fadeIn(300);
-    });
-    
-    $(".popup-overlay, .popup-box i").on("click", function(){
-      $(".popup").fadeOut(300);
-    });
-  }); 
+$(document).ready(function() {
+  $('.popup-link').magnificPopup();
+});
