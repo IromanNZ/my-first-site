@@ -741,12 +741,6 @@ body {
   right: 30px;
 }
 
-.popup {
-  width: 720px;
-  margin: 0 auto;
-  position: relative;
-}
-
 /* overlay at start */
 .mfp-fade.mfp-bg {
   opacity: 0;
