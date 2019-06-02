@@ -472,8 +472,8 @@ body {
   display: grid;
   -ms-grid-columns: 280px auto;
       grid-template-columns: 280px auto;
-  -ms-grid-rows: auto 65;
-      grid-template-rows: auto 65;
+  -ms-grid-rows: auto 65px;
+      grid-template-rows: auto 65px;
   margin: 50px auto;
   width: 955px;
   height: 349px;
