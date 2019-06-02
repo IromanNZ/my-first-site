@@ -28,6 +28,17 @@ $(function(){
 $(document).ready(function() {
   $('.popup-link').magnificPopup({
     removalDelay: 300,
-    mainClass: 'mfp-fade'
+    mainClass: 'mfp-fade',
+    callbacks: {
+        open: function() {
+            $('.slider').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear'
+              });
+        }
+      }
   });
 });
