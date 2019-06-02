@@ -26,5 +26,8 @@ $(function(){
 });
 
 $(document).ready(function() {
-  $('.popup-link').magnificPopup();
+  $('.popup-link').magnificPopup({
+    removalDelay: 300,
+    mainClass: 'mfp-fade'
+  });
 });
