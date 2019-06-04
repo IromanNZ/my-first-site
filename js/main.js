@@ -33,4 +33,13 @@ $(function () {
     $(".popup-overlay, .popup-box i").on("click", function(){
       $(".popup").fadeOut(300);
     });
-  }); 
+  });
+
+$(document).ready(function() {
+  var swiper = new Swiper('.swiper-container', {
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
+});
